@@ -1,0 +1,32 @@
+{
+  "name": "aeroscout-command-center",
+  "description": "Autonomous Drone Disaster Response Command Center — SIH 2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "build:prod": "vite build --mode production",
+    "build:staging": "vite build --mode staging",
+    "serve": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.8",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.8",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
