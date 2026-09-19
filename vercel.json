@@ -5,11 +5,5 @@
   "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "env": {
-    "VITE_API_BASE_URL": "@aeroscout_api_base_url",
-    "VITE_WS_BASE_URL": "@aeroscout_ws_base_url",
-    "VITE_API_TOKEN": "@aeroscout_api_token",
-    "VITE_USE_SIMULATION": "false"
-  }
+  ]
 }
